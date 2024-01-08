@@ -58,8 +58,12 @@ endif()
 
 project(TriWild)
 
+list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/triwild/")
 list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/recipes/")
 list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/find/")
+
+# General CMake utils
+include(triwild_cpm_cache)
 
 # Build static binaries
 #set(BUILD_SHARED_LIBS OFF)
