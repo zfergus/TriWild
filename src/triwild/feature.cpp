@@ -17,7 +17,7 @@
 
 #include "Logger.h"
 
-#include "../../extern/aabbcc/src/AABB.h"
+#include <AABB.h>
 #include <igl/unique_rows.h>
 
 #include "reference_triangle.h"

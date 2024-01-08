@@ -12,7 +12,7 @@
 #include "Curves.h"
 #include <geogram/mesh/mesh.h>
 #include <geogram/mesh/mesh_AABB.h>
-#include "../../extern/aabbcc/src/AABB.h"
+#include <AABB.h>
 #include <igl/unique_rows.h>
 #include <igl/Timer.h>
 #include <igl/writeSTL.h>
