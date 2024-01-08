@@ -56,7 +56,8 @@ endif()
 
 ################################################################################
 
-project(TriWild)
+project(TriWild
+		LANGUAGES C CXX)
 
 list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/triwild/")
 list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/recipes/")
